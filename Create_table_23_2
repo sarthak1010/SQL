@@ -1,0 +1,18 @@
+Creating Table from SQL query
+
+#running query in database SAMPLE1
+
+Create table tblPerson
+(
+ID int not null Primary key ,
+Name varchar(50) not null,
+Email varchar(50) not null,
+GenderID int null
+)
+
+Creating table from GUI of SSMS(SQL Server Managment Studio)
+# Already created database name SAMPLE1
+1.Find table column in sample1 database
+2.Right click on table and choose new
+3.on the right window fill columns and assign datatypes each and every table columns
+ 
