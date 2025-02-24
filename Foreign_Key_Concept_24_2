@@ -1,0 +1,12 @@
+Foreign Key Concept
+
+Foreign Key usedto enforce database integrity. 
+Foreign Key in one table points to primary key in another table.
+Foreign key constrain prevents invalid data form being inserted into foreign key column.
+
+Altert table ForeignKeyTable add constraint ForeignKeyTable_ForeignKeyColumn_FK
+ForeignKey (ForeignKeyColumn) reference PrimaryKeyTable (PrimaryKeyColumn)
+
+Query:-
+Alter table tblPerson add constraint tblPerson_GenderID_FK
+ForeignKey (GenderID) refernces tblGender (ID)
