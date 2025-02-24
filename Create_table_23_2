@@ -2,6 +2,8 @@ Creating Table from SQL query
 
 #running query in database SAMPLE1
 
+Use [Sample1]
+Go
 Create table tblPerson
 (
 ID int not null Primary key ,
