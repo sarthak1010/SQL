@@ -1,0 +1,14 @@
+ Default Constraint
+
+Select * From tblGender
+Select * From tblPerson
+
+Insert into tblPerson (ID,Name,Email) values (3,'Agrima','agrima@a.com')
+Insert into tblPerson (ID,Name,Email) values (4,'Shri','shri@a.com')
+Insert into tblPerson (ID,Name,Email) values (5,'Shanaya','shanaya@a.com')
+Insert into tblPerson (ID,Name,Email,GenderID) values (6,'David','dav@a.com',NULL)
+
+
+Alter Table tblPerson
+Add constraint DF_tblPerson_GenderID
+Default 3 For GenderID
